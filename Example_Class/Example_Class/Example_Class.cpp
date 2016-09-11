@@ -73,8 +73,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << audi.getYear() << endl;
 	audi.setColor("Red");
 	cout << audi.getColor() << endl;
-	/*audi.setColor("blue");
-	cout << audi.getColor() << endl;*/
+	audi.setColor("blue");
+	cout << audi.getColor() << endl;
 	audi.setMarka("Audi");
 	audi.print();
 	system("pause");
